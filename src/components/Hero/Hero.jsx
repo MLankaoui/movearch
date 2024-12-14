@@ -1,5 +1,6 @@
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import './Hero.css'
+import Header from '../Header/Header';
 
 
 const Hero = () => {
@@ -9,19 +10,22 @@ const Hero = () => {
         loop: true,
     });
     return (
-        <div className="hero-container">
-            <div className="hero-text">
-                <h1>Movearch</h1>
-                <p> {text} <Cursor/> </p>
-                
-            </div>
+        <>
+            <Header />
+            <div className="hero-container">
+                <div className="hero-text">
+                    <h1>Movearch</h1>
+                    <p> {text} <Cursor/> </p>
+                    
+                </div>
 
-            <div className="hero-button">
-                <button className="get-started">
-                    Get Started
-                </button>
+                <div className="hero-button">
+                    <button className="get-started">
+                        Get Started
+                    </button>
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 
