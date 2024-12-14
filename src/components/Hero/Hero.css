@@ -12,7 +12,7 @@
 
 .hero-text {
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 .hero-text h1 {
     text-align: center;
@@ -21,7 +21,6 @@
 .hero-text p {
     text-align: center;
     font-size: 25px;
-    font-weight: 900;
 }
 
 .get-started {
