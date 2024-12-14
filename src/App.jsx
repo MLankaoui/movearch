@@ -28,7 +28,7 @@ function App() {
       <Router>
         <Routes>
             <Route path="/" element={<Hero />} />
-            <Route path="/movies" element={<Movies />} />
+            <Route path="/trending" element={<Movies />} />
         </Routes>
       </Router>
       )}
