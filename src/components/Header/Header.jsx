@@ -10,7 +10,7 @@ const Header = () => {
                         <li className='nav-logo'><Link style={{color: 'white', textDecoration: 'none', fontWeight: 'bolder'}} to="/">MOVEARCH</Link></li>
                     </div>
                     <div className='right'>
-                        <li className='nav-item'><Link to="/movies" style={{color: 'white', textDecoration: 'none', fontWeight: 'bolder'}}> Movies </Link></li>
+                        <li className='nav-item'><Link to="/trending" style={{color: 'white', textDecoration: 'none', fontWeight: 'bolder'}}> Trending </Link></li>
                         <li className='nav-item'>Horror</li>
                         <li className='nav-item'>Romance</li>
                         <li className='nav-item'>War</li>
